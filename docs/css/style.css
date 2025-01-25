@@ -88,4 +88,39 @@ footer {
     padding: 2rem;
     background: #f5f5f5;
     margin-top: 4rem;
+}
+
+/* Blog styles */
+.blog-posts article {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-posts article:last-child {
+    border-bottom: none;
+}
+
+.blog-posts h2 {
+    margin-bottom: 0.5rem;
+}
+
+.post-excerpt {
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+/* Code blocks */
+code {
+    background: #f6f8fa;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 85%;
 } 
